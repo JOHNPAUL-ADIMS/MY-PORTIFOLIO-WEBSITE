@@ -12,11 +12,11 @@
 :root {
     --mainColor: #ffffff;
     --secondaryColor:#111213;
-    --sidebarColor:#ffffff;
-    --sidebarbottom:#ba4c021a;
+    --sidebarColor:#8c2c2309;
+    --sidebarbottom:#ba4c021b;
     --sidebartextColor: rgb(0, 0, 0);
     --bordermenucolor:#8c2c2345 ;
-    --iconColor: #8C2C23;
+    --iconColor: #8c2c23 ;
     /* #9fa3a6 */
     --borderColor: #0270ba;
     --labelColor: #101111;
@@ -1393,7 +1393,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: var(--borderColor);
+      color: var(--iconColor);
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -1952,6 +1952,8 @@ button,
   width: 26em; }
   #sidebar h2 {
     font-size: 1.38889em; }
+  #sidebar p {
+    text-align: justify;}
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
