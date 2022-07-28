@@ -15,7 +15,7 @@
     --sidebarColor:#ffffff;
     --sidebarbottom:#ba4c021a;
     --sidebartextColor: rgb(0, 0, 0);
-    --bordermenucolor:#ba4c021a ;
+    --bordermenucolor:#8C2C23 ;
     --iconColor: #8C2C23;
     /* #9fa3a6 */
     --borderColor: #0270ba;
@@ -1003,11 +1003,7 @@ hr {
 section.special, article.special {
   text-align: center; }
 
-header.home-header{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
+
 
 header p {
   font-family: "Roboto Slab", serif;
