@@ -15,7 +15,7 @@
     --sidebarColor:#ffffff;
     --sidebarbottom:#ba4c021a;
     --sidebartextColor: rgb(0, 0, 0);
-    --bordermenucolor:#8C2C23 ;
+    --bordermenucolor:#8c2c2345 ;
     --iconColor: #8C2C23;
     /* #9fa3a6 */
     --borderColor: #0270ba;
@@ -1011,7 +1011,8 @@ header p {
   font-weight: 400;
   letter-spacing: 0.075em;
   margin-top: -0.5em;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  text-align: justify;}
 
 header.major > :last-child {
   border-bottom: solid 3px var(--borderColor);
@@ -2354,7 +2355,7 @@ button,
 }
 
 .Supply-chain{
-  text-transform: capitalize;
+  text-transform: none;
   text-align: justify;
 }
 
