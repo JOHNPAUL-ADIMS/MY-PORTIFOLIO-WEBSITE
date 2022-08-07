@@ -12,13 +12,14 @@
 :root {
     --mainColor: #ffffff;
     --secondaryColor:#111213;
-    --sidebarColor:#8c2c2309;
-    --sidebarbottom:#ba4c021b;
+    --sidebarColor:#ffffff;
+    --sidebarbottom:#8c2c2344 ;
     --sidebartextColor: rgb(0, 0, 0);
-    --bordermenucolor:#8c2c2345 ;
+    --bordermenucolor:#8c2c23 ;
     --iconColor: #8c2c23 ;
     /* #9fa3a6 */
     --borderColor: #0270ba;
+    --borderColor1:#f3f5f6;
     --labelColor: #101111;
 
 }
@@ -1876,7 +1877,7 @@ button,
     max-width: 110em; }
     #main > .inner > section {
       padding: 1em 0 4em 0 ;
-      border-top: solid 2px var(--sidebarbottom) }
+      border-top: solid 1px var(--sidebarbottom) }
       #main > .inner > section:first-of-type {
         border-top: 0 !important; }
   @media screen and (max-width: 1680px) {
@@ -1957,9 +1958,10 @@ button,
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
-    width: 26em; }
+    width: 26em;
+    background-color: var(--borderColor1); }
     #sidebar > .inner > * {
-      border-bottom: solid 2px var(--sidebarbottom);
+      /* border-bottom: solid 1px var(--sidebarbottom); */
       margin: 0 0 3.5em 0;
       padding: 0 0 3.5em 0; }
       #sidebar > .inner > * > :last-child {
@@ -1999,6 +2001,7 @@ button,
       -webkit-font-smoothing: antialiased;
       display: inline-block;
       font-style: normal;
+      color: var(--borderColor);
       font-variant: normal;
       text-rendering: auto;
       line-height: 1;
@@ -2039,7 +2042,8 @@ button,
         margin-left: -24em; } }
   @media screen and (max-width: 1280px) {
     #sidebar {
-      box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
+      box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.719);
+      color: var(--borderColor);
       height: 100%;
       left: 0;
       position: fixed;
@@ -2072,7 +2076,7 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: var(--secondaryColor);
+        color: var(--borderColor);
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
