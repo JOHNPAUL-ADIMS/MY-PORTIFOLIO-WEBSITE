@@ -1954,7 +1954,9 @@ button,
   #sidebar h2 {
     font-size: 1.38889em; }
   #sidebar p {
-    text-align: justify;}
+    text-align: justify;
+    font-style: italic;
+    color: var(--secondaryColor);}
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
@@ -1967,6 +1969,9 @@ button,
       #sidebar > .inner > * > :last-child {
         margin-bottom: 0; }
       #sidebar > .inner > *:last-child {
+        background-color: var(--borderColor);
+        text-align: center;
+        color: var(--borderColor1);
         border-bottom: 0;
         margin-bottom: 0;
         padding-bottom: 0; }
