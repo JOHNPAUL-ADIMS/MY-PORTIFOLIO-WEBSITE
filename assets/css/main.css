@@ -1960,7 +1960,8 @@ button,
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
-    width: 26em;
+    width: 23em;
+    height:auto;
     background-color: var(--borderColor1); }
     #sidebar > .inner > * {
       /* border-bottom: solid 1px var(--sidebarbottom); */
