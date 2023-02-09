@@ -2157,7 +2157,9 @@ button,
     -webkit-flex-shrink: 0.5;
     -ms-flex-shrink: 0.5;
     flex-shrink: 0.5;
-    width: 50%; }
+    width: 50%;
+    font-size: small;
+  }
   #banner .image {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -2366,6 +2368,7 @@ button,
 /* Index */
 .My_name{
   color:	#8C2C23;
+  
 }
 
 .Supply-chain{
